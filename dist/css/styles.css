@@ -16,4 +16,12 @@ input {
 
 .button-send {
   border-radius: 10px;
+}
+
+#emailError {
+  display: none;
+}
+
+#passwordError {
+  display: none;
 }/*# sourceMappingURL=styles.css.map */
