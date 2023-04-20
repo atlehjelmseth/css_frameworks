@@ -1,0 +1,25 @@
+$colors: (
+ "primary": #000000,
+ "secondary":#ffffff,
+ "third": #ffffff,
+);
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  background-color: map-get($colors, third);
+  text-align: center;
+  border-radius: 10px;
+  border: solid 2px black;
+}
+
+input {
+  border-radius: 10px;
+}
+
+.button-send {
+  border-radius: 10px;
+}
