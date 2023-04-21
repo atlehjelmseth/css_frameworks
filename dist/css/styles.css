@@ -1,3 +1,7 @@
+img {
+  width: 100%;
+}
+
 h1 {
   text-align: center;
 }
@@ -24,4 +28,9 @@ input {
 
 #passwordError {
   display: none;
+}
+
+.background-image {
+  min-height: 400px;
+  background-color: red;
 }/*# sourceMappingURL=styles.css.map */

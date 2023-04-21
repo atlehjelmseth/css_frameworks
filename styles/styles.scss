@@ -4,6 +4,10 @@ $colors: (
  "third": #ffffff,
 );
 
+img {
+  width: 100%;
+}
+
 h1 {
   text-align: center;
 }
@@ -33,3 +37,7 @@ input {
   display: none;
 }
 
+.background-image {
+  min-height: 400px;
+  background-color: red;
+}
