@@ -10,23 +10,24 @@
   <title>Document</title>
 </head>
 
-<body class="bg-light">
+<body>
   <div class="container login">
-    <h1>Login Sosial Media</h1>
+    <h1 class="login-h1">Lovefinderrz</h1>
+    <img src="/img/lovefinderrz.png" class="logo" alt="Lovefinderrz logo">
     <div class="row">
       <form id="contactForm">
         <div class="label">
           <label>
-            <input name="email" id="email" placeholder="* Email">
+            <input name="email" class="input-login" id="email" placeholder="* Email">
           </label>
-          <div class="emailError" id="emailError">Enter email</div>
+          <div class="emailError" id="emailError">Please enter correct email</div>
         </div>
         <div class="label">
           <label>
-            <input name="password" id="password" placeholder="* Password">
+            <input name="password" class="input-login" id="password" placeholder="* Password">
           </label>
           <div class="passwordError" id="passwordError">
-            Password min 8 char
+            Password must be min. 8 characters
           </div>
         </div>
         <button class="button-send">Log in</button>
