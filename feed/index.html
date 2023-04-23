@@ -11,28 +11,26 @@
 </head>
 
 <body>
-
   <div class="container flex-row">
     <div class="row flex-row">
-      <div class="col-12 d-flex align-items-center justify-content-between bg-dark">
-        <h1 class="name">Richard Daniel "Rick" Sanchez</h1>
-        <img src="/img/lovefinderrz.png" class="logo float-end" alt="Lovefinderrz logo">
+      <div class="col-12 d-flex align-items-center  bg-dark">
+        <img src="/img/lovefinderrz.png" class="logo m-0" alt="Lovefinderrz logo">
       </div>
     </div>
-    <div class="row flex-row ">
-      <a href="/profile/index.html" class="col-6 text-center p-3 border link-dark">
+    <!-- <div class="row flex-row navbar">
+      <a href="/profile/index.html" class="col-6 text-center p-3 border link-dark active">
         Profile
       </a>
-      <a href="/feed/index.html" class="col-6 text-center p-3 link-dark border active">Feed
+      <a href="/feed/index.html" class="col-6 text-center p-3 link-dark border">Feed
       </a>
-    </div>
+    </div> -->
     <div class="row flex-row">
       <div class="col-12d-flex align-items-center justify-content-center text-center background-image">
 
-        <div class="flex-column"><img src="/img/rick_thumb.jpg" class="profile-picture border border-5"
+        <div class="flex-column"><img src="/img/rick_thumb.jpg" class="profile-picture border border-5 mt-5"
             alt="Profile picture">
           <p class="nickname">"Rick C-137"</p>
-          <a href="#" class="follow-button">FOLLOW ME</a>
+          <a href="#" class="follow-button p-3">FOLLOW ME</a>
         </div>
       </div>
     </div>
@@ -83,16 +81,20 @@
               lightly.</p>
             <img src="/img/rick_morty3.jpg" class="profile-picture-bottom" alt="Picture of Morty and Rick">
           </div>
-          <form></form>
-          <label>
-            <textarea id="your-comment" class="your-comment" placeholder="* Please enter your comment"></textarea>
-          </label>
-          <button class="button_contact" type="submit">Send!</button>
-          </form>
+          <div class="row d-flex">
+            <form>
+              <label class="d-flex flex-column ">
+                <textarea id="your-comment" class="your-comment m-auto"
+                  placeholder="* Please enter your comment"></textarea>
+              </label>
+              <button class="" type="submit">Send!</button>
+            </form>
+          </div>
         </div>
 
-        <footer>Lovefinderrz &copy; 2023</footer>
+
       </div>
+      <footer>Lovefinderrz &copy; 2023</footer>
 </body>
 
 </html>
